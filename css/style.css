@@ -1,0 +1,27 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* slider part start */
+.carousel_center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.img_overlay::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.min_h_350 {
+  min-height: 350px;
+}
+/* slider part end */
+/* company part start */
+.company img {
+  max-width: 120px;
+}
+/* company part end */
